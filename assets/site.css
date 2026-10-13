@@ -18,3 +18,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 .form-status.ok{background:#e8f3ec;color:#1d5b34}
 .form-status.err{background:#fbeaea;color:#8a1f1f}
 .hero-divider{width:480px;max-width:100%}
+.logo-sb{display:inline-flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border:1.5px solid #02468b;border-radius:.5rem;color:#02468b;font-family:"Playfair Display",Georgia,serif;font-weight:700;font-size:1.25rem;letter-spacing:.04em;line-height:1;text-decoration:none;transition:background-color .3s,color .3s}
+.logo-sb:hover{background:#02468b;color:#fbfaf8}
+@media (min-width:768px){.logo-sb{width:3rem;height:3rem;font-size:1.375rem}}
