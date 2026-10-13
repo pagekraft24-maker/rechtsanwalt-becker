@@ -1,0 +1,20 @@
+/* Ergänzungen zum Readdy-Stylesheet */
+[hidden]{display:none!important}
+.justify-end{justify-content:flex-end}
+.list-none{list-style:none}
+.p-0{padding:0}
+.py-24{padding-top:6rem;padding-bottom:6rem}
+@media (min-width:768px){.md\:py-32{padding-top:8rem;padding-bottom:8rem}}
+.space-y-6>:not([hidden])~:not([hidden]){margin-top:1.5rem}
+.text-blocksatz{hyphens:auto;-webkit-hyphens:auto}
+@media (min-width:768px){.text-blocksatz{text-align:justify}}
+.text-liste li+li{margin-top:.5rem}
+.hero-title{display:block;text-align:center;text-wrap:balance}
+@media (min-width:768px){.hero-title{display:flex;justify-content:center;white-space:nowrap}}
+.skip-link{position:absolute;left:-9999px;top:0;z-index:100;background:#fff;color:#02468b;padding:.75rem 1rem;border-radius:.5rem}
+.skip-link:focus{left:1rem;top:1rem}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid #02468b;outline-offset:2px}
+.form-status{font-size:.875rem;border-radius:.5rem;padding:.75rem 1rem}
+.form-status.ok{background:#e8f3ec;color:#1d5b34}
+.form-status.err{background:#fbeaea;color:#8a1f1f}
+.hero-divider{width:480px;max-width:100%}
